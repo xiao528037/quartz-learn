@@ -1,12 +1,3 @@
-# 1.定时任务
-## 1.1 定时任务，基本概念
-在指定的时间执行指定的任务
-- scheduler:调度器
-- JobDetail:任务管理器，包含Job（Job接口的类)
-- Trigger:触发器，规定何时执行，执行什么任务，怎么执行
-## 1.2 Quarts入门
-
-```java
 package com.xiao.quartzlearn.first;
 
 import org.quartz.JobDetail;
@@ -54,15 +45,3 @@ public class QuartzTest {
 
     }
 }
-
-```
-## 1.3 触发器
-一个Trigger（触发器）只能调度一个JobDetail（任务），多个Trigger（触发器）能调度一个任务。
-![img.png](IdeaProjects/quartz-learn/image/img.png)
-## 1.4 CronExpression
-## 1.5 传入变量，依赖注入
-## 1.6 Spring+Quartz
-## 1.7 持久化
-## 1.8 集群环境
-## 1.9 分布式环境
-# 2.Quartz详解
