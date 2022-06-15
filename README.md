@@ -58,7 +58,7 @@ public class QuartzTest {
 ```
 ## 1.3 触发器
 一个Trigger（触发器）只能调度一个JobDetail（任务），多个Trigger（触发器）能调度一个任务。
-![img.png](IdeaProjects/quartz-learn/image/img.png)
+![img.png](/quartz-learn/image/img.png)
 ## 1.4 CronExpression
 ## 1.5 传入变量，依赖注入
 ## 1.6 Spring+Quartz
